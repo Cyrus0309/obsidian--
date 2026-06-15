@@ -1,0 +1,438 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "flexplorer",
+        "version": "1.0.0",
+        "title": "Flexplorer",
+        "description": "Flexplorer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "bottom",
+                    "target": "bottom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bottom",
+                    "target": "底部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "top",
+                    "target": "top"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Top",
+                    "target": "Top"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Drag not in handle area",
+                    "target": "Drag not in handle area"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Drag started",
+                    "target": "Drag started"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Dropped",
+                    "target": "Dropped"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Nowhere to drop",
+                    "target": "Nowhere to drop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Moving selected items:",
+                    "target": "Moving selected items:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Drag ended",
+                    "target": "Drag ended"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Attaching to",
+                    "target": "Attaching to"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DnD enabled",
+                    "target": "DnD enabled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DnD disabled",
+                    "target": "DnD disabled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Indicators synced",
+                    "target": "Indicators synced"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No move needed",
+                    "target": "No move needed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Source item not found in settings",
+                    "target": "Source item not found in settings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Directory did not change, sorting explorer",
+                    "target": "Directory did not change, sorting explorer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Skipping data.json update",
+                    "target": "Skipping data.json update"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Explorer patched",
+                    "target": "Explorer patched"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Custom sort menu opened for '/'",
+                    "target": "Custom sort menu opened for '/'"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Menu patched",
+                    "target": "Menu patched"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Patches removed",
+                    "target": "Patches removed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Explorer mounted, initializing features:",
+                    "target": "Explorer mounted, initializing features:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Explorer remounted, re-attaching DnD engine:",
+                    "target": "Explorer remounted, re-attaching DnD engine:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Plugin loaded",
+                    "target": "Plugin loaded"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Plugin unloaded",
+                    "target": "Plugin unloaded"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings updated:",
+                    "target": "Settings updated:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings changed externally",
+                    "target": "Settings changed externally"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Plugin initialized",
+                    "target": "Plugin initialized"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Root folder menu, skipping",
+                    "target": "Root folder menu, skipping"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Settings loaded:",
+                    "target": "Settings loaded:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Yes",
+                    "target": "是"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "No",
+                    "target": "No"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setContent",
+                    "source": "Save current order as custom?",
+                    "target": "是否将当前顺序保存为自定义顺序？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default placement for new items inside a folder",
+                    "target": "新项目在文件夹中的默认位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show debug logs in the console",
+                    "target": "在控制台显示调试日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New item placement",
+                    "target": "新项目位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Persist order on create/delete",
+                    "target": "创建/删除时保留顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Debug mode",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Flexplorer",
+                    "target": "Flexplorer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Save as custom order",
+                    "target": "保存为自定义顺序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show hidden",
+                    "target": "显示隐藏项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Sort order",
+                    "target": "排序方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Issue #120 discussion",
+                    "target": "Issue #120 讨论"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(`Drag not in handle area`)",
+                    "target": "log(`Drag not in handle area`)"
+                },
+                {
+                    "source": "log(`Drag started`)",
+                    "target": "log(`Drag started`)"
+                },
+                {
+                    "source": "log(`Nowhere to drop`)",
+                    "target": "log(`Nowhere to drop`)"
+                },
+                {
+                    "source": "log(`Attaching to`,e),this.explorerEl=e,e.addEventListener(this.dragStartEvent,this.onDragStart),e.addEventListener(this.dragEvent,this.onDrag),e.addEventListener(this.dropEvent,this.onDrop,{capture:!0}),t.Platform.isMobile||e.addEventListener(`dragend`,this.onDragEnd),this.log(`DnD enabled`)",
+                    "target": "log(`Attaching to`,e),this.explorerEl=e,e.addEventListener(this.dragStartEvent,this.onDragStart),e.addEventListener(this.dragEvent,this.onDrag),e.addEventListener(this.dropEvent,this.onDrop,{capture:!0}),t.Platform.isMobile||e.addEventListener(`dragend`,this.onDragEnd),this.log(`DnD enabled`)"
+                },
+                {
+                    "source": "log(`DnD disabled`)",
+                    "target": "log(`DnD disabled`)"
+                },
+                {
+                    "source": "log(`Item '${e.path}' is already in the target folder and folder does not have custom order`)",
+                    "target": "log(`Item '${e.path}' is already in the target folder and folder does not have custom order`)"
+                },
+                {
+                    "source": "log(`Folder '${t}' expanded after timeout`)",
+                    "target": "log(`Folder '${t}' expanded after timeout`)"
+                },
+                {
+                    "source": "log(`Indicators synced`)",
+                    "target": "log(`Indicators synced`)"
+                },
+                {
+                    "source": "log(`Syncing items with vault in root '${e.path}'`)",
+                    "target": "log(`Syncing items with vault in root '${e.path}'`)"
+                },
+                {
+                    "source": "log(`Adding new item '${e.path}' at '${n}'`)",
+                    "target": "log(`Adding new item '${e.path}' at '${n}'`)"
+                },
+                {
+                    "source": "log(`Moving '${e}' to '${t}' ${r} '${n}'`)",
+                    "target": "log(`Moving '${e}' to '${t}' ${r} '${n}'`)"
+                },
+                {
+                    "source": "log(`No move needed`)",
+                    "target": "log(`No move needed`)"
+                },
+                {
+                    "source": "log(`Source item not found in settings`)",
+                    "target": "log(`Source item not found in settings`)"
+                },
+                {
+                    "source": "log(`Directory did not change, sorting explorer`)",
+                    "target": "log(`Directory did not change, sorting explorer`)"
+                },
+                {
+                    "source": "log(`Removing '${e}'`)",
+                    "target": "log(`Removing '${e}'`)"
+                },
+                {
+                    "source": "log(`Skipping data.json update`)",
+                    "target": "log(`Skipping data.json update`)"
+                },
+                {
+                    "source": "setTitle(`Save as custom order`)",
+                    "target": "setTitle(`保存为自定义顺序`)"
+                },
+                {
+                    "source": "log(`Explorer patched`)",
+                    "target": "log(`Explorer patched`)"
+                },
+                {
+                    "source": "setTitle(`Show hidden`)",
+                    "target": "setTitle(`显示隐藏项`)"
+                },
+                {
+                    "source": "log(`Custom sort menu opened for '/'`)",
+                    "target": "log(`Custom sort menu opened for '/'`)"
+                },
+                {
+                    "source": "log(`Menu patched`)",
+                    "target": "log(`Menu patched`)"
+                },
+                {
+                    "source": "log(`Patches removed`)",
+                    "target": "log(`Patches removed`)"
+                },
+                {
+                    "source": "setName(`New item placement`)",
+                    "target": "setName(`新项目位置`)"
+                },
+                {
+                    "source": "setDesc(`Default placement for new items inside a folder`)",
+                    "target": "setDesc(`新项目在文件夹中的默认位置`)"
+                },
+                {
+                    "source": "setName(`Persist order on create/delete`)",
+                    "target": "setName(`创建/删除时保留顺序`)"
+                },
+                {
+                    "source": "setName(`Debug mode`)",
+                    "target": "setName(`调试模式`)"
+                },
+                {
+                    "source": "setDesc(`Show debug logs in the console`)",
+                    "target": "setDesc(`在控制台显示调试日志`)"
+                },
+                {
+                    "source": "log(`Plugin unloaded`)",
+                    "target": "log(`Plugin unloaded`)"
+                },
+                {
+                    "source": "log(`Settings updated:`,this.settings)}async onExternalSettingsChange(){this.log(`Settings changed externally`)",
+                    "target": "log(`Settings updated:`,this.settings)}async onExternalSettingsChange(){this.log(`Settings changed externally`)"
+                },
+                {
+                    "source": "log(`Plugin initialized`)",
+                    "target": "log(`Plugin initialized`)"
+                },
+                {
+                    "source": "log(`Item created: ${e.path}`)",
+                    "target": "log(`Item created: ${e.path}`)"
+                },
+                {
+                    "source": "log(`Item renamed from ${t} to ${e.path}`)",
+                    "target": "log(`Item renamed from ${t} to ${e.path}`)"
+                },
+                {
+                    "source": "log(`Item deleted: ${e.path}`)",
+                    "target": "log(`Item deleted: ${e.path}`)"
+                },
+                {
+                    "source": "log(`File modified in '${e.path}' with modified-time-based sorting, sorting explorer`)",
+                    "target": "log(`File modified in '${e.path}' with modified-time-based sorting, sorting explorer`)"
+                },
+                {
+                    "source": "log(`File menu opened for '${n.path}'`)",
+                    "target": "log(`File menu opened for '${n.path}'`)"
+                },
+                {
+                    "source": "log(`Root folder menu, skipping`)",
+                    "target": "log(`Root folder menu, skipping`)"
+                },
+                {
+                    "source": "setTitle(`Sort order`)",
+                    "target": "setTitle(`排序方式`)"
+                }
+            ]
+        }
+    }
+}

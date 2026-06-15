@@ -1,0 +1,274 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-kanban",
+        "version": "1.0.0",
+        "title": "Kanban",
+        "description": "Kanban Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.51",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "enter",
+                    "target": "输入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "prepend",
+                    "target": "前置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "append",
+                    "target": "追加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "kanban",
+                    "target": "看板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "body",
+                    "target": "主体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "footer",
+                    "target": "页脚"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: kanban locale not found",
+                    "target": "错误：未找到看板区域设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating kanban board:",
+                    "target": "创建看板时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义日记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义周记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义月记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "markRanges() will only accept an array of objects",
+                    "target": "markRanges() 只接受对象数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unknown config option(s) passed",
+                    "target": "传入了未知的配置选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Trying to initialise Choices on element already initialised",
+                    "target": "尝试在已初始化的元素上初始化 Choices"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "react-fast-compare cannot handle circular refs",
+                    "target": "react-fast-compare 无法处理循环引用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read the daily note template",
+                    "target": "无法读取每日笔记模板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Hue",
+                    "target": "色相"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Color",
+                    "target": "颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Alpha",
+                    "target": "透明度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "content",
+                    "target": "内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "label",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "link",
+                    "target": "link"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anno Domini",
+                    "target": "公元"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Before Christ",
+                    "target": "公元前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "attention",
+                    "target": "attention"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "autolink",
+                    "target": "autolink"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "definition",
+                    "target": "definition"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "list",
+                    "target": "list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "search",
+                    "target": "search"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Failed to read the daily note template\")",
+                    "target": "Notice(\"Failed to read the daily note template\")"
+                },
+                {
+                    "source": "Notice(\"Unable to create new file.\")",
+                    "target": "Notice(\"Unable to create new file.\")"
+                },
+                {
+                    "source": "log(\"markRanges() will only accept an array of objects\")",
+                    "target": "log(\"markRanges() will only accept an array of objects\")"
+                },
+                {
+                    "source": "log('Searching with expression \"'+l+'\"')",
+                    "target": "log('Searching with expression \"'+l+'\"')"
+                },
+                {
+                    "source": "log('Searching with expression \"'+O+'\"')",
+                    "target": "log('Searching with expression \"'+O+'\"')"
+                },
+                {
+                    "source": "log('Full text: \"'.concat(O,'\", score: ')",
+                    "target": "log('Full text: \"'.concat(O,'\", score: ')"
+                },
+                {
+                    "source": "log('Token: \"'.concat(Mt,'\", score: ')",
+                    "target": "log('Token: \"'.concat(Mt,'\", score: ')"
+                },
+                {
+                    "source": "error(\"Error creating kanban board:\",a)}}registerEvents(){this.registerEvent(this.app.workspace.on(\"file-menu\",(n,i,a,o)=>{if(a===\"link-context-menu\")",
+                    "target": "error(\"Error creating kanban board:\",a)}}registerEvents(){this.registerEvent(this.app.workspace.on(\"file-menu\",(n,i,a,o)=>{if(a===\"link-context-menu\")"
+                },
+                {
+                    "source": "name:\"Anno Domini\"",
+                    "target": "name:\"Anno Domini\""
+                },
+                {
+                    "source": "name:\"Before Christ\"",
+                    "target": "name:\"Before Christ\""
+                },
+                {
+                    "source": "text: \"'.concat(O,'\"",
+                    "target": "text: \"'.concat(O,'\""
+                }
+            ]
+        }
+    }
+}

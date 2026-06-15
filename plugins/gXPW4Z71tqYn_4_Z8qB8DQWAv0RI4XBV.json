@@ -1,0 +1,248 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "view-mode-rules",
+        "version": "1.0.0",
+        "title": "View Mode Rules",
+        "description": "View Mode Rules Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Use Obsidian default",
+                    "target": "使用 Obsidian 默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "source",
+                    "target": "源码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Editing",
+                    "target": "编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "preview",
+                    "target": "预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Reading",
+                    "target": "阅读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "view-mode-rules: failed to persist rename",
+                    "target": "view-mode-rules: 重命名持久化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "view-mode-rules: failed to persist delete",
+                    "target": "view-mode-rules: 删除持久化失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add",
+                    "target": "添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used when no note or folder rule matches.",
+                    "target": "当没有笔记或文件夹规则匹配时使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When Obsidian starts, apply configured views to tabs restored from the previous session.",
+                    "target": "当 Obsidian 启动时，将配置的视图应用于从上次会话恢复的标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Re-apply configured views when navigating into an already-open tab (link clicks, file explorer clicks). When off, only first opens are affected.",
+                    "target": "在导航到已打开的标签页时重新应用已配置的视图（链接点击、文件资源管理器点击）。关闭时，仅首次打开受影响。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Global default",
+                    "target": "全局默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply on workspace restore",
+                    "target": "在恢复工作区时应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Apply on navigation",
+                    "target": "在导航时应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note rules",
+                    "target": "笔记规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder rules",
+                    "target": "文件夹规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Path",
+                    "target": "路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mode",
+                    "target": "模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Default view",
+                    "target": "默认视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Inherit (remove rule)",
+                    "target": "继承（移除规则）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Remove rule",
+                    "target": "移除规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set current note to default editing view",
+                    "target": "将当前笔记设置为默认编辑视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set current note to default reading view",
+                    "target": "将当前笔记设置为默认阅读视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear default view for current note",
+                    "target": "清除当前笔记的默认视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open settings",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Tip: right-click a note or folder in the file explorer to set its default view.",
+                    "target": "提示：在文件管理器中右键点击笔记或文件夹，可设置其默认视图。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setTitle(\"Default view\")",
+                    "target": "setTitle(\"Default view\")"
+                },
+                {
+                    "source": "setTitle(\"Inherit (remove rule)\")",
+                    "target": "setTitle(\"Inherit (remove rule)\")"
+                },
+                {
+                    "source": "setName(\"Global default\")",
+                    "target": "setName(\"Global default\")"
+                },
+                {
+                    "source": "setDesc(\"Used when no note or folder rule matches.\")",
+                    "target": "setDesc(\"Used when no note or folder rule matches.\")"
+                },
+                {
+                    "source": "setName(\"Apply on workspace restore\")",
+                    "target": "setName(\"Apply on workspace restore\")"
+                },
+                {
+                    "source": "setDesc(\"When Obsidian starts, apply configured views to tabs restored from the previous session.\")",
+                    "target": "setDesc(\"When Obsidian starts, apply configured views to tabs restored from the previous session.\")"
+                },
+                {
+                    "source": "setName(\"Apply on navigation\")",
+                    "target": "setName(\"Apply on navigation\")"
+                },
+                {
+                    "source": "setDesc(\"Re-apply configured views when navigating into an already-open tab (link clicks, file explorer clicks). When off, only first opens are affected.\")",
+                    "target": "setDesc(\"Re-apply configured views when navigating into an already-open tab (link clicks, file explorer clicks). When off, only first opens are affected.\")"
+                },
+                {
+                    "source": "setName(\"Note rules\")",
+                    "target": "setName(\"Note rules\")"
+                },
+                {
+                    "source": "setName(\"Folder rules\")",
+                    "target": "setName(\"Folder rules\")"
+                },
+                {
+                    "source": "setDesc(`No ${s} rules yet.`)",
+                    "target": "setDesc(`No ${s} rules yet.`)"
+                },
+                {
+                    "source": "setTooltip(\"Remove rule\")",
+                    "target": "setTooltip(\"Remove rule\")"
+                },
+                {
+                    "source": "setButtonText(`Add ${s} rule`)",
+                    "target": "setButtonText(`Add ${s} rule`)"
+                },
+                {
+                    "source": "text:\"Tip: right-click a note or folder in the file explorer to set its default view.\"",
+                    "target": "text:\"Tip: right-click a note or folder in the file explorer to set its default view.\""
+                },
+                {
+                    "source": "name:\"Set current note to default editing view\"",
+                    "target": "name:\"Set current note to default editing view\""
+                },
+                {
+                    "source": "name:\"Set current note to default reading view\"",
+                    "target": "name:\"Set current note to default reading view\""
+                },
+                {
+                    "source": "name:\"Clear default view for current note\"",
+                    "target": "name:\"Clear default view for current note\""
+                },
+                {
+                    "source": "name:\"Open settings\"",
+                    "target": "name:\"Open settings\""
+                }
+            ]
+        }
+    }
+}
